@@ -45,8 +45,6 @@ class _QuizPageState extends State<QuizPage> {
       ));
     }
     setState(() {
-      //Alert(context: context, title: "RFLUTTER", desc: "Flutter is awesome.")
-      .show();
       quizBrain.nextQuestion();
     });
   }
